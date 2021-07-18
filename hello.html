@@ -2,12 +2,70 @@
 <html lang="en">
     <head>
         <title>Hello!</title>
+        <style>
+            body{
+                background-color:cornsilk;
+            }
+            h1{
+                margin-top: 70px;
+                text-transform:capitalize;
+                text-align: center;
+            }
+
+            h1:hover {
+                text-transform: uppercase;
+            }
+
+            #t {
+                margin-top: 50px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 20px;
+                text-align: center;
+            }
+            #link {
+                    margin: 0 auto;
+                    text-align: center;
+            }
+
+            #link:hover {
+                    text-transform: uppercase;
+            }
+
+            #list {
+                background-color: cyan;
+                width: 50%;
+                margin: 0 auto;
+                margin-top: 20px;
+                padding: 5px;
+            }
+            ol{
+                display: block;
+            }
+            section{
+                width: 50%;
+                height: 100px;
+                margin: 0 auto;
+                margin-top: 50px;
+                border: 3px solid teal;
+            }
+        </style>
     </head>
     <body>
         <h1>Welcome to my Website!</h1>
-        <div>Hello World!</div>
+        <div id="t">Hello World!</div>
         <br>
-        <div>Click<a href="https://www.google.com/" target="_blank">Google</a></div>
+        <div id="link">Click <a href="https://www.google.com/" target="_blank">Google</a></div>
+        <br>
+        <div id="list">
+            <ol>
+                <li>One</li>
+                <li>Two</li>
+                <li>Three</li>
+            </ol>
+        </div>
+        <br>
+        <section>
 
+        </section>
     </body>
 </html>
